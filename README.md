@@ -16,16 +16,19 @@ Experience "Credibility" live: [https://credibility-password-checker.onrender.co
 
 ## 📁 Project Structure
 
+```markdown
+```
 credibility/
-├── main.py # Main Flask application file
-├── password_analyzer.py # Python module for password strength analysis (custom + zxcvbn)
-├── hibp_checker.py # Python module for Have I Been Pwned API interaction
-├── requirements.txt # Lists all Python dependencies
-├── templates/ # Contains HTML templates
-│ └── index.html # Main HTML page for the application
-└── static/ # Contains static assets (CSS, JavaScript)
-├── style.css # Custom CSS for styling
-└── script.js # Frontend JavaScript for interactivity
+├── main.py                     # Main Flask application file
+├── password_analyzer.py        # Python module for password strength analysis (custom + zxcvbn)
+├── hibp_checker.py             # Python module for Have I Been Pwned API interaction
+├── requirements.txt            # Lists all Python dependencies
+├── templates/                  # Contains HTML templates
+│   └── index.html              # Main HTML page for the application
+└── static/                     # Contains static assets (CSS, JavaScript)
+    ├── style.css               # Custom CSS for styling
+    └── script.js               # Frontend JavaScript for interactivity
+```
 
 
 ## ⚙️ Local Setup
