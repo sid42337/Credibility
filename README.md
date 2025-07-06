@@ -17,7 +17,6 @@ Experience "Credibility" live: [https://credibility-password-checker.onrender.co
 ## 📁 Project Structure
 
 ```markdown
-```
 credibility/
 ├── main.py                     # Main Flask application file
 ├── password_analyzer.py        # Python module for password strength analysis (custom + zxcvbn)
