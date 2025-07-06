@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5) !important; /* Blue-500 with opacity */
+    border-color: transparent !important; /* Hide default border */
+}
+
+/* Style for strength bar colors */
+.strength-weak {
+    background-color: #ef4444; /* Red-500 */
+}
+.strength-medium {
+    background-color: #f59e0b; /* Amber-500 */
+}
+.strength-strong {
+    background-color: #22c55e; /* Green-500 */
+}
+/* Style for Very Strong bar color */
+.strength-very-strong {
+    background-color: #059669; /* Emerald-600 */
+}
+
+/* Style for suggestion items */
+.suggestion-item {
+    color: #dc2626; /* Red-600 */
+    font-weight: 500; /* Medium font weight */
+}
